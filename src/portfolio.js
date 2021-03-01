@@ -9,28 +9,28 @@ const illustration = {
 };
 
 const greeting = {
-  username: "David Rakosi",
-  title: "Hi all, I'm David",
+  username: "Prince Paraste",
+  title: "Hi all, I'm Prince",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web applications with JavaScript / Reactjs / Nodejs / Laravel and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "https://drive.google.com/file/d/1dv2vWeU6OukRm_kp099gkRAlaF0QungW/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/drakosi99",
+  github: "https://github.com/prince214",
   // linkedin: "https://www.linkedin.com/in/",
-  gmail: "contact@davidrakosi.com",
+  gmail: "princeparaste78@gmail.com",
   // gitlab: "https://gitlab.com/",
   // facebook: "https://www.facebook.com/",
-  medium: "https://medium.com/@davidrakosi",
-  stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
-  instagram: 'https://www.instagram.com/davidrakosi/',
-  twitter: 'https://twitter.com/davidrakosi_',
+  // medium: "https://medium.com/@davidrakosi",
+  stackoverflow: "https://stackoverflow.com/users/9285335/prince-paraste",
+  instagram: 'https://www.instagram.com/prince_paraste.dev/',
+  twitter: 'https://twitter.com/princeparaste',
   display: true // Set true to display this section, defaults to false
 };
 
@@ -41,11 +41,14 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive Front end and BackEnd for your web applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Make User Friendly Admin Panels for clients according to their requirements."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Payment Gateway like Stripe and Domain services like Godaddy."
+    ),
+    emoji(
+      "⚡ Implement Custom Rest API's for web and mobile applications."
     )
   ],
 
@@ -78,8 +81,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "laravel",
+      fontAwesomeClassname: "fab fa-laravel"
     },
     {
       skillName: "npm",
@@ -88,10 +91,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -100,27 +99,27 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
+      schoolName: "Lovely Professional University",
+      logo: require("./assets/images/lpu.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      duration: "August 2016 - August 2020",
+      desc: "My major was Computer Science and Engineering and I garaduated with a CGPA of 7.86 from the University.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "I was also one of the Event Manager of Registration Committee on the Indian Science Congress (ISC) 2019 held at Lovely Professional University"
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
+    // {
+    //   schoolName: "Bharat Jyoti Hr. Sec. School",
+    //   logo: require("./assets/images/bjv.jpg"),
+    //   subHeader: "Bachelor of Science in Computer Science",
+    //   duration: "September 2013 - April 2017",
+    //   desc:
+    //     "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+    //   descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    // }
   ]
 };
 
@@ -131,11 +130,11 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend / Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
@@ -152,34 +151,40 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Clever Programmer",
-      companylogo: require("./assets/images/cpLogo.png"),
-      date: "September 2020 – Present",
+      company: "Infostride",
+      companylogo: require("./assets/images/infostride.png"),
+      date: "March 2020 – Present",
       desc:
-        "Changing lives of developers one line of code at a time.",
+        "Wroking as a Backend Software Dev at Infostride (India).",
       descBullets: [
         "Custom building applications",
-        "Coaching",
-        "Streaming live on YouTube",
-        "Creating tutorials"
+        "Working with clients and their requirements to build their applications",
+        "Building Admin Panels for Clients",
+        "Implementing Third Party Services to applications",
+        "Creating Rest API's for web and mobile applications"
       ]
     },
     {
-      role: "Product Owner (PSD2)",
-      company: "Erste Bank",
-      companylogo: require("./assets/images/ersteLogo.jpg"),
-      date: "July 2019 – September 2020",
+      role: "Intern",
+      company: "Infostride",
+      companylogo: require("./assets/images/infostride.png"),
+      date: "October 2019 – March 2020",
       desc:
-        "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements."
-    },
-    {
-      role: "Junior Information Security & Systems Representative",
-      company: "Vodafone",
-      companylogo: require("./assets/images/vodafoneLogo.png"),
-      date: "November 2018 – July 2019",
-      desc:
-        "I've conducted internal audit making sure the organization is compliant with the GDPR."
+        "I was a Intern at Infostride LTD. in India. Working with Senior Project Managers.",
+        descBullets: [
+          "Complete the task Modules given by Seniors Project Managers",
+          "Learn in Agile methodology to work effieciently with team ",
+          "Learn as much as possible"
+        ]
     }
+    // {
+    //   role: "Junior Information Security & Systems Representative",
+    //   company: "Vodafone",
+    //   companylogo: require("./assets/images/vodafoneLogo.png"),
+    //   date: "November 2018 – July 2019",
+    //   desc:
+    //     "I've conducted internal audit making sure the organization is compliant with the GDPR."
+    // }
   ]
 };
 
@@ -188,42 +193,167 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "drakosi99", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "prince214", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "My Projects",
+  subtitle: "These are some of the projects that i worked on",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/slack.png"),
+      projectName: "Slack Clone",
+      projectDesc: "Made a Slack Clone with React.Js Hosted on FireBase.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "fa"
+          name: "Slack",
+          url: "https://slack-clone-9a8cd.web.app/room/"
+        },
+        {
+          name: "github",
+          url: "https://github.com/prince214/slack-clone"
+        },
+        {
+          name: "react.js",
+          url: "javascript::void(0)"
+        },
+        {
+          name: "firebase",
+          url: "javascript::void(0)"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/netflix.png"),
+      projectName: "Netflix Clone",
+      projectDesc: "Made a Netflix Clone with React.Js and Node and Hosted on FireBase.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: ""
+          name: "Netflix",
+          url: "https://netflix-clone-2dd79.web.app/"
+        },
+        {
+          name: "github",
+          url: "https://github.com/prince214/netflix-clone"
+        },
+        {
+          name: "react.js",
+          url: "javascript::void(0)"
+        },
+        {
+          name: "TMDB API",
+          url: "javascript::void(0);"
+        },
+        {
+          name: "nodejs",
+          url: "javascript::void(0)"
+        },
+        {
+          name: "firebase",
+          url: "javascript::void(0)"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/bookslibrary.png"),
+      projectName: "BooksLibrary",
+      projectDesc: "BooksLibrary is a web app where user can keep a record of their favourite Books by their favourite authors.",
+      footerLink: [
+        {
+          name: "BooksLibrary",
+          url: "https://booksxlibrary.herokuapp.com/books"
+        },
+        {
+          name: "github",
+          url: "https://github.com/prince214/BooksLibrary"
+        },
+        {
+          name: "nodejs",
+          url: "javascript::void(0);"
+        },
+        {
+          name: "mongodb",
+          url: "javascript::void(0)"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/codeforcoder.png"),
+      projectName: "Codeforcoder: Student Portal",
+      projectDesc: "CodeforCoder is a website which provide study material like PPT, MCQs, Programs/Codes to students.",
+      footerLink: [
+        {
+          name: "Codeforcoder",
+          url: "https://codeforcoder.com"
+        },
+        {
+          name: "Bootstrap 4",
+          url: "javascript::void(0)"
+        },
+        {
+          name: "PHP",
+          url: "javascript::void(0)"
+        },
+        {
+          name: "Source Code Private",
+          url: "javascript::void(0)"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/adminpanel.svg"),
+      projectName: "Laravel Admin Panel",
+      projectDesc: "Made Starter Admin Panel Theme so quickly get started with the Project. Login Credentials: prince@gmail.com | 123456789a",
+      footerLink: [
+        {
+          name: "Laravel Admin Panel",
+          url: "http://aqueous-woodland-76798.herokuapp.com/login"
+        },
+        {
+          name: "Bootstrap 4",
+          url: "javascript::void(0)"
+        },
+        {
+          name: "Laravel Framework",
+          url: "javascript::void(0)"
+        },
+        {
+          name: "github",
+          url: "https://github.com/prince214/Laravel-Start"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/quiz.png"),
+      projectName: "Quiz Web Application",
+      projectDesc: "Made a single page web application which fetches questions from API and user answer it.",
+      footerLink: [
+        {
+          name: "Fancy Quiz App",
+          url: "https://quizapp10q.herokuapp.com/"
+        },
+        {
+          name: "github",
+          url: "https://github.com/prince214/VueQuizApp"
+        },
+        {
+          name: "Vue.js",
+          url: "javascript::void(0)"
+        },
+        {
+          name: "Opentdb API",
+          url: "javascript::void(0)"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -310,7 +440,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -349,14 +479,14 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "(323) 768 0674",
-  email_address: "contact@davidrakosi.com"
+  number: "+91-8463048477",
+  email_address: "princeparaste78@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "davidrakosi_", //Replace "twitter" with your twitter username without @
+  userName: "princeparaste", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 

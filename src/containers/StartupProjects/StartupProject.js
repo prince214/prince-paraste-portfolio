@@ -72,7 +72,8 @@ export default function StartupProject() {
                               }
                               onClick={() => openProjectInNewWindow(link.url)}
                             >
-                              {link.name}
+                              {link.name}&nbsp;
+                              <i class="fas fa-external-link-alt"></i>
                             </span>
                           );
                         })}
