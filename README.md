@@ -1,10 +1,11 @@
-# # Prince Paraste Portfolio      
+# # Prince Paraste Portfolio     
+
+![ReactJS Resume Website Template](portfolio.png?raw=true "ReactJS Resume Website Template")    
 
 ## <a href="https://prince-paraste.netlify.app" target="_blank">MY PORTFOLIO</a>
 
 ## Description
 This is a my personal portfolio website made in react.js
-
 #### PROCEDURE:
 - Download the zip folder from Github and unzip it
 - Open the folder in VS Code
