@@ -26,7 +26,7 @@
 }
 .skills-container {
   display: flex;
-  width: 90%;
+  width: 70%;
   padding: 20px 10px;
   margin: 0px auto;
   margin-top: 2rem;
@@ -37,7 +37,7 @@
 }
 .skills-image > img {
   margin-left: 80px;
-  max-width: 90%;
+  max-width: 70%;
   height: auto;
 }
 

@@ -67,14 +67,14 @@ export default function StartupProject() {
                           return (
                             <span
                               key={i}
-                              className={
-                                isDark ? "dark-mode project-tag" : "project-tag"
-                              }
-                              onClick={() => openProjectInNewWindow(link.url)}
+                              className={isDark ? "dark-mode project-tag" : "project-tag"}
                             >
-                              {link.name}&nbsp;
-                              <i class="fas fa-external-link-alt"></i>
+                              {link.name}
+                              &nbsp;&nbsp;
+                              {link.url ? (<i class="fas fa-external-link-alt" onClick={() => openProjectInNewWindow(link.url)}></i>) : ''}
+                              
                             </span>
+                            
                           );
                         })}
                       </div>

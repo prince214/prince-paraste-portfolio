@@ -12,10 +12,10 @@ const greeting = {
   username: "Prince Paraste",
   title: "Hi all, I'm Prince",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web applications with JavaScript / Reactjs / Nodejs / Laravel and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web applications with Laravel / JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1dv2vWeU6OukRm_kp099gkRAlaF0QungW/view?usp=sharing",
+    "https://drive.google.com/file/d/1GMIJpr1-WjExYWL3EtipZmYlA9YOX_un/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -38,7 +38,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER WHO CREATES WEBSITES TO HELP PEOPLE GROW FURTHER ONLINE.",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end and BackEnd for your web applications"
@@ -57,16 +57,8 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "laravel",
+      fontAwesomeClassname: "fab fa-laravel"
     },
     {
       skillName: "JavaScript",
@@ -77,19 +69,27 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap"
     },
     {
-      skillName: "laravel",
-      fontAwesomeClassname: "fab fa-laravel"
+      skillName: "GitHub",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
     },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "MySql",
       fontAwesomeClassname: "fas fa-database"
     }
   ],
@@ -111,15 +111,6 @@ const educationInfo = {
         "I was also one of the Event Manager of Registration Committee on the Indian Science Congress (ISC) 2019 held at Lovely Professional University"
       ]
     }
-    // {
-    //   schoolName: "Bharat Jyoti Hr. Sec. School",
-    //   logo: require("./assets/images/bjv.jpg"),
-    //   subHeader: "Bachelor of Science in Computer Science",
-    //   duration: "September 2013 - April 2017",
-    //   desc:
-    //     "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-    //   descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    // }
   ]
 };
 
@@ -155,7 +146,7 @@ const workExperiences = {
       companylogo: require("./assets/images/infostride.png"),
       date: "March 2020 – Present",
       desc:
-        "Wroking as a Backend Software Dev at Infostride (India).",
+        "Primarily working on Laravel Framework at Infostride Pvt Ltd (India).",
       descBullets: [
         "Custom building applications",
         "Working with clients and their requirements to build their applications",
@@ -170,21 +161,13 @@ const workExperiences = {
       companylogo: require("./assets/images/infostride.png"),
       date: "October 2019 – March 2020",
       desc:
-        "I was a Intern at Infostride LTD. in India. Working with Senior Project Managers.",
+        "I was a Intern at Infostride Pvt Ltd (India). I worked with my with Seniors and helped completing real client projects.",
         descBullets: [
           "Complete the task Modules given by Seniors Project Managers",
           "Learn in Agile methodology to work effieciently with team ",
           "Learn as much as possible"
         ]
     }
-    // {
-    //   role: "Junior Information Security & Systems Representative",
-    //   company: "Vodafone",
-    //   companylogo: require("./assets/images/vodafoneLogo.png"),
-    //   date: "November 2018 – July 2019",
-    //   desc:
-    //     "I've conducted internal audit making sure the organization is compliant with the GDPR."
-    // }
   ]
 };
 
@@ -202,8 +185,59 @@ const openSource = {
 
 const bigProjects = {
   title: "My Projects",
-  subtitle: "These are some of the projects that i worked on",
+  subtitle: "Following are some of my Open Source work that have done ...",
   projects: [
+    {
+      image: require("./assets/images/adminpanel.svg"),
+      projectName: "Laravel Admin Panel",
+      projectDesc: "Made Starter Admin Panel Theme so quickly get started with the Project. Login Credentials: prince@gmail.com | 123456789a",
+      footerLink: [
+        {
+          name: "Laravel Admin Panel",
+          url: "http://aqueous-woodland-76798.herokuapp.com/login",
+        },
+        {
+          name: "github",
+          url: "https://github.com/prince214/Laravel-Start"
+        },
+        {
+          name: "Bootstrap 4",
+          url: ""
+        },
+        {
+          name: "Laravel Framework",
+          url: ""
+        },        
+      ]
+    },
+    {
+      image: require("./assets/images/tmdb.png"),
+      projectName: "TMDB MOVIE APP",
+      projectDesc: "Using TMDB API to get all the movies. User can search, see movie details and actors.",
+      footerLink: [
+        {
+          name: "Demo",
+          url: "https://zealous-bohr-e022d3.netlify.app/"
+        },
+        {
+          name: "github",
+          url: "https://github.com/prince214/tmdb-react-app"
+        },
+        {
+          name: "react.js",
+          url: ""
+        },
+        {
+          name: "TMDB API",
+          url: ""
+        },
+        {
+          name: "React Router",
+          url: ""
+        }
+        //  you can add extra buttons here.
+      ]
+    },
     {
       image: require("./assets/images/slack.png"),
       projectName: "Slack Clone",
@@ -219,11 +253,11 @@ const bigProjects = {
         },
         {
           name: "react.js",
-          url: "javascript::void(0)"
+          url: ""
         },
         {
           name: "firebase",
-          url: "javascript::void(0)"
+          url: ""
         }
         //  you can add extra buttons here.
       ]
@@ -243,19 +277,19 @@ const bigProjects = {
         },
         {
           name: "react.js",
-          url: "javascript::void(0)"
+          url: ""
         },
         {
           name: "TMDB API",
-          url: "javascript::void(0);"
+          url: ""
         },
         {
           name: "nodejs",
-          url: "javascript::void(0)"
+          url: ""
         },
         {
           name: "firebase",
-          url: "javascript::void(0)"
+          url: ""
         }
         //  you can add extra buttons here.
       ]
@@ -275,57 +309,11 @@ const bigProjects = {
         },
         {
           name: "nodejs",
-          url: "javascript::void(0);"
+          url: ""
         },
         {
           name: "mongodb",
-          url: "javascript::void(0)"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/codeforcoder.png"),
-      projectName: "Codeforcoder: Student Portal",
-      projectDesc: "CodeforCoder is a website which provide study material like PPT, MCQs, Programs/Codes to students.",
-      footerLink: [
-        {
-          name: "Codeforcoder",
-          url: "https://codeforcoder.com"
-        },
-        {
-          name: "Bootstrap 4",
-          url: "javascript::void(0)"
-        },
-        {
-          name: "PHP",
-          url: "javascript::void(0)"
-        },
-        {
-          name: "Source Code Private",
-          url: "javascript::void(0)"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/adminpanel.svg"),
-      projectName: "Laravel Admin Panel",
-      projectDesc: "Made Starter Admin Panel Theme so quickly get started with the Project. Login Credentials: prince@gmail.com | 123456789a",
-      footerLink: [
-        {
-          name: "Laravel Admin Panel",
-          url: "http://aqueous-woodland-76798.herokuapp.com/login"
-        },
-        {
-          name: "Bootstrap 4",
-          url: "javascript::void(0)"
-        },
-        {
-          name: "Laravel Framework",
-          url: "javascript::void(0)"
-        },
-        {
-          name: "github",
-          url: "https://github.com/prince214/Laravel-Start"
+          url: ""
         }
       ]
     },
@@ -344,11 +332,11 @@ const bigProjects = {
         },
         {
           name: "Vue.js",
-          url: "javascript::void(0)"
+          url: ""
         },
         {
           name: "Opentdb API",
-          url: "javascript::void(0)"
+          url: ""
         }
       ]
     }
@@ -487,7 +475,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "princeparaste", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
