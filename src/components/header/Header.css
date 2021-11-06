@@ -43,20 +43,23 @@
 }
 
 .header .logo {
-  display: block;
-  flex: none;
+  /* display: block;
+  flex: none; */
   float: left;
   font-size: 1.5em;
   text-decoration: none;
   margin-top: 10px;
+  display: flex;
+  align-items: center;
   line-height: normal;
 }
 .header .logo-name {
-  font-family: "Georgia";
+  font-family: "Arial";
   font-weight: bold;
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 0 10px;
+  
 }
 
 /* menu */
@@ -67,6 +70,10 @@
   transition: max-height 0.2s ease-out;
 }
 
+.crown-img{
+  margin-right: 8px;
+  width: 30px;
+}
 /* menu icon */
 
 .header .menu-icon {
