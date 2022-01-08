@@ -12,10 +12,10 @@ const greeting = {
   username: "Prince Paraste",
   title: "Hi all, I'm Prince",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web applications with Laravel / JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web applications with JavaScript / Reactjs / Nodejs / Laravel and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1GMIJpr1-WjExYWL3EtipZmYlA9YOX_un/view?usp=sharing",
+    "https://drive.google.com/file/d/1EuqSq19jn864m9XRnwXuIz2NWgA-x8St/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -141,10 +141,23 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Developer",
+      company: "Abstract Tech Ltd.",
+      companylogo: require("./assets/images/abstract-v1.jpg"),
+      date: "December 2021 – Present",
+      desc:
+        "Working as a Frontend Developer, creating and building reusable components for high performance web apps.",
+      descBullets: [
+        "Converting the UI designs from Figma to functional html code.",
+        "Followed Scrum/Agile practices for building and delivering the sprints and product backlogs.",
+        "Used Jira for development and team communication."
+      ]
+    },
+    {
       role: "Software Engineer",
-      company: "Infostride",
+      company: "Infostride Pvt Ltd.",
       companylogo: require("./assets/images/infostride.png"),
-      date: "March 2020 – Present",
+      date: "March 2020 – November 2021",
       desc:
         "Primarily working on Laravel Framework at Infostride Pvt Ltd (India).",
       descBullets: [
@@ -157,7 +170,7 @@ const workExperiences = {
     },
     {
       role: "Intern",
-      company: "Infostride",
+      company: "Infostride Pvt Ltd.",
       companylogo: require("./assets/images/infostride.png"),
       date: "October 2019 – March 2020",
       desc:
